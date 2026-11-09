@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CRAVE Coffee House &amp; Bakery · Kingston, ON</title>
+  <meta name="description" content="CRAVE Coffee House & Bakery — espresso, iced lattes and fresh-baked pastries at 166 Princess St, downtown Kingston. Open daily 7:30 a.m.–8 p.m." />
+  <meta name="theme-color" content="#0d0a08" />
+  <meta property="og:title" content="CRAVE Coffee House & Bakery" />
+  <meta property="og:description" content="Espresso, iced lattes and fresh-baked pastries on Princess St, Kingston." />
+  <meta property="og:image" content="assets/img/storefront.jpg" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@1,9..144,400;1,9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "CRAVE Coffee House & Bakery",
+    "image": "assets/img/storefront.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "166 Princess St",
+      "addressLocality": "Kingston",
+      "addressRegion": "ON",
+      "postalCode": "K7L 3G5",
+      "addressCountry": "CA"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "07:30",
+      "closes": "20:00"
+    }]
+  }
+  </script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__brand" aria-label="CRAVE home">
+      <img src="assets/img/logo.png" alt="" width="40" height="40" />
+      <span>CRAVE</span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#story">Story</a>
+      <a href="#space">The Space</a>
+      <a href="#menu">Menu</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a class="btn btn--small nav__cta" href="https://www.google.com/maps/dir/?api=1&destination=CRAVE+Coffee+House+%26+Bakery+166+Princess+St+Kingston+ON" target="_blank" rel="noopener">Directions</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__bgword" aria-hidden="true">
+        <span>CRAVE</span>
+      </div>
+
+      <div class="hero__stage" id="cupStage">
+        <canvas id="cupCanvas" aria-label="A 3D CRAVE coffee cup slowly spinning. Drag to spin it." role="img"></canvas>
+        <img class="hero__fallback" src="assets/img/logo.png" alt="CRAVE Coffee House & Bakery logo" />
+        <p class="hero__drag" aria-hidden="true">← drag to spin →</p>
+      </div>
+
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="status" id="statusPill"><i></i><b id="statusText">Open daily 7:30 a.m.–8 p.m.</b></span></p>
+        <h1 class="hero__title">
+          <span class="line">Coffee House</span>
+          <span class="line line--serif">&amp; Bakery</span>
+        </h1>
+        <p class="hero__sub">Handcrafted espresso, cold foam iced lattes and pastries baked every morning — right on Princess Street in downtown Kingston.</p>
+        <div class="hero__actions">
+          <a href="#visit" class="btn">Come by</a>
+          <a href="#menu" class="btn btn--ghost">See the menu</a>
+        </div>
+      </div>
+
+      <a href="#story" class="hero__scroll" aria-label="Scroll to story">
+        <span>Scroll</span><i></i>
+      </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Espresso</span><em>✦</em><span>Iced Lattes</span><em>✦</em><span>Cold Foam</span><em>✦</em><span>Fresh Pastries</span><em>✦</em><span>Princess St</span><em>✦</em><span>Kingston, ON</span><em>✦</em>
+        <span>Espresso</span><em>✦</em><span>Iced Lattes</span><em>✦</em><span>Cold Foam</span><em>✦</em><span>Fresh Pastries</span><em>✦</em><span>Princess St</span><em>✦</em><span>Kingston, ON</span><em>✦</em>
+      </div>
+    </div>
+
+    <!-- STORY -->
+    <section class="story" id="story">
+      <div class="story__text reveal">
+        <p class="kicker">01 — Our story</p>
+        <h2 class="h2">Downtown Kingston’s <em>living room.</em></h2>
+        <p>CRAVE is where the city slows down for a minute. Pull up a stool at the bar, sink into the leather banquettes, or grab a table on the patio and watch Princess Street go by.</p>
+        <p>Every cup is pulled with care — from a silky flat white with latte art to our iced lattes crowned with cold foam — and the bakery case is stocked fresh each morning. Come for the coffee. Stay because you’ll want to.</p>
+      </div>
+      <div class="story__media">
+        <figure class="story__img story__img--a reveal" data-parallax="0.08">
+          <img src="assets/img/latte-art.jpg" alt="A latte with tulip latte art beside two espresso portafilters, one with whole beans and one with fresh grounds" loading="lazy" />
+        </figure>
+        <figure class="story__img story__img--b reveal" data-parallax="-0.06">
+          <img src="assets/img/coffee-croissant.jpg" alt="A barista in a CRAVE apron holding an iced latte and an almond croissant" loading="lazy" />
+        </figure>
+        <div class="story__badge" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" /></defs>
+            <text><textPath href="#circ">FRESH DAILY • COFFEE HOUSE • BAKERY • KINGSTON •</textPath></text>
+          </svg>
+          <img src="assets/img/logo.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="pillars">
+      <article class="pillar reveal">
+        <span class="pillar__num">01</span>
+        <h3>Espresso bar</h3>
+        <p>Lattes, cappuccinos, americanos and flat whites — dialed in daily and poured with real latte art.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">02</span>
+        <h3>Iced &amp; cold foam</h3>
+        <p>Our signature iced lattes topped with a thick, velvety cap of cold foam. A Princess St summer staple.</p>
+      </article>
+      <article class="pillar reveal">
+        <span class="pillar__num">03</span>
+        <h3>The bakery</h3>
+        <p>Croissants, sweets and savoury bites baked fresh — the almond croissant has a following.</p>
+      </article>
+    </section>
+
+    <!-- SPACE / GALLERY -->
+    <section class="space" id="space">
+      <header class="space__head reveal">
+        <p class="kicker">02 — The space</p>
+        <h2 class="h2">Stay a while. <em>Bring a friend.</em></h2>
+        <p>Exposed ductwork, café string lights, a stone fireplace and long butcher-block tables made for laptops, study sessions and long catch-ups.</p>
+      </header>
+      <div class="gallery">
+        <figure class="tile tile--lounge reveal">
+          <img src="assets/img/lounge.jpg" alt="The back lounge with string lights, long wooden tables, the CRAVE logo painted on a white brick wall and a fireplace" loading="lazy" />
+          <figcaption>The back lounge</figcaption>
+        </figure>
+        <figure class="tile tile--cheers reveal">
+          <img src="assets/img/cheers.jpg" alt="Two CRAVE baristas holding up iced lattes with cold foam" loading="lazy" />
+          <figcaption>Cold foam, cheers</figcaption>
+        </figure>
+        <figure class="tile tile--bar reveal">
+          <img src="assets/img/interior-bar.jpg" alt="The front of the café: tufted leather banquettes, bistro tables and the coffee bar" loading="lazy" />
+          <figcaption>The bar</figcaption>
+        </figure>
+        <figure class="tile tile--iced reveal">
+          <img src="assets/img/iced-duo.jpg" alt="Two iced lattes in CRAVE cups on a patio table" loading="lazy" />
+          <figcaption>Iced, always</figcaption>
+        </figure>
+        <figure class="tile tile--patio reveal">
+          <img src="assets/img/patio.jpg" alt="The CRAVE patio on Princess Street on a sunny day" loading="lazy" />
+          <figcaption>Patio on Princess</figcaption>
+        </figure>
+        <figure class="tile tile--store reveal">
+          <img src="assets/img/storefront.jpg" alt="The round CRAVE sign above the storefront with an iced coffee and a pastry held up in front" loading="lazy" />
+          <figcaption>166 Princess St</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+      <header class="menu__head reveal">
+        <p class="kicker">03 — The menu</p>
+        <h2 class="h2">What we’re <em>pouring.</em></h2>
+      </header>
+      <div id="menuRoot" class="menu__root"></div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visit" id="visit">
+      <div class="visit__info reveal">
+        <p class="kicker">04 — Visit</p>
+        <h2 class="h2">Find us on <em>Princess.</em></h2>
+        <address class="visit__addr">
+          166 Princess St<br />Kingston, ON K7L 3G5
+        </address>
+        <p class="visit__near">Between Queen St and King St — a short walk from Kingston City Hall &amp; Market Square.</p>
+        <table class="hours" id="hours" aria-label="Opening hours">
+          <tbody>
+            <tr data-day="1"><th scope="row">Monday</th><td>7:30 a.m.–8 p.m.</td></tr>
+            <tr data-day="2"><th scope="row">Tuesday</th><td>7:30 a.m.–8 p.m.</td></tr>
+            <tr data-day="3"><th scope="row">Wednesday</th><td>7:30 a.m.–8 p.m.</td></tr>
+            <tr data-day="4"><th scope="row">Thursday</th><td>7:30 a.m.–8 p.m.</td></tr>
+            <tr data-day="5"><th scope="row">Friday</th><td>7:30 a.m.–8 p.m.</td></tr>
+            <tr data-day="6"><th scope="row">Saturday</th><td>7:30 a.m.–8 p.m.</td></tr>
+            <tr data-day="0"><th scope="row">Sunday</th><td>7:30 a.m.–8 p.m.</td></tr>
+          </tbody>
+        </table>
+        <div class="hero__actions">
+          <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=CRAVE+Coffee+House+%26+Bakery+166+Princess+St+Kingston+ON" target="_blank" rel="noopener">Get directions</a>
+        </div>
+      </div>
+      <div class="visit__map reveal">
+        <iframe
+          title="Map showing CRAVE Coffee House & Bakery at 166 Princess St, Kingston"
+          src="https://maps.google.com/maps?q=CRAVE%20Coffee%20House%20%26%20Bakery%2C%20166%20Princess%20St%2C%20Kingston%2C%20ON%20K7L%203G5&z=16&output=embed"
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__big" aria-hidden="true">CRAVE</div>
+    <div class="footer__row">
+      <img src="assets/img/logo.png" alt="CRAVE Coffee House & Bakery" width="72" height="72" />
+      <p>166 Princess St, Kingston, ON K7L 3G5<br />Open daily · 7:30 a.m.–8 p.m.</p>
+      <p class="footer__copy">© <span id="year">2026</span> CRAVE Coffee House &amp; Bakery</p>
+    </div>
+  </footer>
+
+  <script type="importmap">
+    { "imports": { "three": "./assets/js/vendor/three.module.min.js" } }
+  </script>
+  <script src="assets/js/menu-data.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/cup.js"></script>
+</body>
+</html>
