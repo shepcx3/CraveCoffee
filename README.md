@@ -30,7 +30,7 @@ While the list is empty, the site shows a "menu coming soon" panel.
 
 ## Deploy
 
-Upload the whole folder to any static host (Netlify, Vercel, GitHub Pages, Cloudflare Pages).
+Upload the folder to any static host (Netlify, Vercel, GitHub Pages, Cloudflare Pages), leaving out `.claude/` (see below).
 
 ## Claude Code skill
 
