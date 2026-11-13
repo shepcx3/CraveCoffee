@@ -31,3 +31,9 @@ While the list is empty, the site shows a "menu coming soon" panel.
 ## Deploy
 
 Upload the whole folder to any static host (Netlify, Vercel, GitHub Pages, Cloudflare Pages).
+
+## Claude Code skill
+
+`.claude/skills/design-taste-frontend/` is the [taste-skill](https://github.com/Leonxlnx/taste-skill) design skill (v2.5.1, MIT),
+committed so Claude Code sessions on this repo load it automatically. It is **not part of the website** —
+exclude the `.claude/` folder when uploading the site to a host.
